@@ -4,6 +4,8 @@ This extension enables you to use [Aspect Oriented Programming](https://en.wikip
 in TYPO3. Behind the scenes we use the [goaop](https://github.com/goaop/framework) framework, which
 is stable and fast.
 
+For more information look at the documentation on [goaop documentation](https://github.com/goaop/framework).
+
 ## Why do you need this?
 
 Do you ever need to extend the functionality of a extension or the core itself
@@ -12,6 +14,22 @@ every class, no matter what you need.
 
 It gives you to be more flexibility, to find the perfect solution for your
 case.
+
+## Installation
+
+Open a command console, enter your project directory and execute the
+following command to download the latest stable version of this package:
+
+```bash
+$ composer require bachi/typo3-aop:@dev
+```
+
+This command requires you to have Composer installed globally, as explained
+in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
+of the Composer documentation.
+
+**Attention**: Installtion through the TYPO3 Extension Installer is not supported,
+due it's limitation of the autoloading process and dependency management.
 
 ## How to use
 
