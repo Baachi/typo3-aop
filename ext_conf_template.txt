@@ -1,0 +1,13 @@
+# cat=general; type=boolean; label=Debug Mode: Disable the caching mechanism
+debug = false
+
+features {
+    # cat=features; type=boolean; label=Enables interception of system function. Be aware that this is might impact your performance!
+    interceptFunctions = false
+    # cat=features; type=boolean; label=Enables interception of "new" operator in the source code (not recommended)
+    interceptInitalizationz = false
+    # cat=features; type=boolean; label=Enables interception of "include"/"require" operations in legacy code.
+    interceptIncludes = false
+    # cat=features; type=boolean; label=Do not check the cache presence and assume that cache is already prepared. Only for read only filesystems.
+    prebuildCache = false
+}
